@@ -1,0 +1,6 @@
+ec\edu\ups\pweb\correojq\model\Correo.class
+ec\edu\ups\pweb\correojq\services\CORSFilter.class
+ec\edu\ups\pweb\correojq\services\PathBase.class
+ec\edu\ups\pweb\correojq\services\CarroServices.class
+ec\edu\ups\pweb\correojq\services\ErrorMessage.class
+ec\edu\ups\pweb\correojq\business\GestionCorreos.class
