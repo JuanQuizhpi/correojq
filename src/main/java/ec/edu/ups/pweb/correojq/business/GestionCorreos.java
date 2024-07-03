@@ -8,6 +8,8 @@ import com.resend.services.emails.model.CreateEmailResponse;
 import ec.edu.ups.pweb.correojq.model.Correo;
 import jakarta.ejb.Stateless;
 
+//atlas.ep26@gmail.com
+//atlas1234
 @Stateless
 public class GestionCorreos {
 
@@ -16,7 +18,7 @@ public class GestionCorreos {
 
         CreateEmailOptions params = CreateEmailOptions.builder()
                 .from("onboarding@resend.dev")
-                .to("juanfranciscoqf2022@gmail.com")
+                .to("atlas.ep26@gmail.com")
                 .subject(correo.getSubject())
                 .html("<strong>"+correo.getBody()+"</strong>")
                 .build();
