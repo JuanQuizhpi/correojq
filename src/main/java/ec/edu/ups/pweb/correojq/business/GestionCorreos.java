@@ -18,7 +18,7 @@ public class GestionCorreos {
 
         CreateEmailOptions params = CreateEmailOptions.builder()
                 .from("onboarding@resend.dev")
-                .to("atlas.ep26@gmail.com")
+                .to("juanfranciscoqf2022@gmail.com")
                 .subject(correo.getSubject())
                 .html("<strong>"+correo.getBody()+"</strong>")
                 .build();
